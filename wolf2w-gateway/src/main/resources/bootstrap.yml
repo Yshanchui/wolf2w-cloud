@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    nacos:
+      server-addr: nacos.orb.local:8848
+      config:
+        file-extension: yaml
+
+  application:
+    name: gateway

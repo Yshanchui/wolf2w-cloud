@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: user-service
+  cloud:
+    nacos:
+      server-addr: nacos.orb.local:8848
+      config:
+        file-extension: yaml
